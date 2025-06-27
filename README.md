@@ -1,1 +1,12 @@
 # CS-305.-Software-Security
+My client was Artemis Financial, a global financial services company that required enhanced software security for their applications. The company tasked me with addressing vulnerabilities in their system to protect sensitive client data, ensure secure communication channels, and maintain compliance with regulatory standards.
+
+When I identified software security vulnerabilities, I was effective at applying industry-standard solutions, such as integrating SHA-256 hashing for data integrity and configuring HTTPS with self-signed certificates to secure client-server communication. These measures were critical because software security directly supports a company’s overall well-being by safeguarding customer data, reducing legal risks, and protecting the company’s reputation against cyber threats.
+
+One of the most challenging yet rewarding parts of the vulnerability assessment was conducting the OWASP Dependency-Check and refactoring the pom.xml to eliminate flagged vulnerabilities. This experience enhanced my understanding of dependency management and secure configuration practices. To increase security layers, I implemented encryption (AES-256 and SHA-256), configured HTTPS, and applied secure coding principles. In future projects, I would complement these steps with tools like Snyk or SonarQube for deeper vulnerability analysis and use automated CI/CD security testing.
+
+To ensure the software remained functional and secure after refactoring, I conducted both static and dynamic code analysis and executed the refactored code to verify it ran without errors. I cross-checked the hashing functionality using checksums to ensure data integrity and reviewed the dependency-check report to confirm vulnerabilities were resolved.
+
+The key resources and practices I used included OWASP guidelines, encryption standards (AES-256, SHA-256), HTTPS configuration tutorials, and dependency management tools. These will be useful in future assignments requiring secure software development and vulnerability mitigation.
+
+For future employers, I would showcase this project as an example of my ability to identify and remediate vulnerabilities, implement secure communication protocols, and apply best practices in secure coding. The report, code updates, and dependency-check analysis collectively demonstrate my skills, knowledge, and experience in building and maintaining secure software systems.
